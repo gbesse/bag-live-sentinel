@@ -1,0 +1,10 @@
+{
+  "bag_dir": "/tmp/robot-bag",
+  "bag_glob": "*.mcap",
+  "heartbeat_file": "/tmp/robot-bag-topic.heartbeat",
+  "duration_s": 60,
+  "sample_interval_s": 1,
+  "max_stall_s": 15,
+  "heartbeat_recent_s": 3,
+  "warmup_s": 5
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bag-live-sentinel"
+version = "0.1.0"
+description = "Compare live ROS topic heartbeat with bag file progress."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+bag-live-sentinel = "bag_live_sentinel:main"
+bag-live-heartbeat = "ros_heartbeat:main"
+
+[tool.setuptools]
+py-modules = ["bag_live_sentinel", "ros_heartbeat"]
